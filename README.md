@@ -10,9 +10,6 @@ My purpose for doing this is to realize my dream of becoming a strong effective 
 
 - [Tech Used](#tech-used)
 - [Installation](#installation)
-- [API Reference](#api-reference)
-  - [Endpoint](#endpoint)
-- [Testing](#testing)
 - [License](#license)
 - [Next Steps](#next-steps)
 
