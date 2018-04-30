@@ -26,12 +26,6 @@ My purpose for doing this is to realize my dream of becoming a strong effective 
 
 In general,  specific folders that require any extra files will have their own readme doc that would instruct required installations. 
 
-
-
-What tech is used for testing.
-
-`How to run the tests`
-
 ## License
 
 MIT
