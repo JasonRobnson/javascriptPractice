@@ -9,12 +9,69 @@
 <body>
 
     <h1>JS fundamentals from Udemy Course</h1>
+
+    <h5>Important Terms:</h5>
+
+    <h6>Syntax Parser</h6>
+    <h6>Lexical Environment</h6>
+    <h6>Execution Context</h6>
+
+    <hr>
+
+    <h6>Global Environment (Global Execution Context)(Wraps Code)</h6>
+    <p>Creates a global object, and variable this</p>
+    <p>Attaches variable and function to global object(window and this)</p>
+    <p>Global Object<p>
+
+    <hr>
+    <h6>Hoisting</h6>
+    <p>Setups Memory Space for Variables and Functions, so when code runs it already exist within the system.</p>
+    <p>Variables are treated slightly different. Compiler will setup memory space for A, but won't know what the actual value is until is runs line by line.</p>
+    <!-- b();
+    console.log(a);
     
+        var a = "Hello World!";
+    
+        function b ( ) {
+            console.log("Called B!")
+        }; -->
+    <hr>
+    <h6>Undefined</h6>
+    <p>A special variable inside Javascript that means variable has not been set</p>
+    <p>All variables get undefiend during the first initial phase of creation unless initialized ot something else</p>
+
+    <hr>
+    <h6>Single Threaded & Synchrouns Execution</h6>
+    <p>One command being executed at a time</p>
+    <p>SingleThread = javascript behaves in a singlethreaded matter</p>
+    <p>Synchrounus, code being executed one line at a time.</p>
+
+    <hr>
+
+    <h6>Invocation and Execution Stack</h6>
+    <p>Create global context for all functions and variables. Then code is executed</p>
+    <p>() = invoking, and a new execution context is created, and placed ontop of execution stack</p>
+    <p>It will have its own space for variables and function. Then execute code line by line. If another function is inovked. It's gonna stop
+        at that line of code, and create another execution context. Then run that code, until its POPPED off the stack.
+    </p>
 </body>
 
 <script>
 
+// console.log(a);
 
-    
+    var a;
+
+    if ( a === undefined ) {
+        console.log('a is undefined!')
+    } else {
+        console.log('a is defined!')
+    }
+
+    function b ( ) {
+        console.log("Called B!")
+    };
+
+
 </script>
 </html>
